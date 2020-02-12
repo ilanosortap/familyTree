@@ -1,0 +1,31 @@
+val members_list =
+  """{"from_family": true, "name": "Ish", "sex": "M", "parent": "King Shan"},
+    |{"from_family": true, "name": "Chit", "sex": "M", "parent": "King Shan"},
+    |{"from_family": true, "name": "Vich", "sex": "M", "parent": "King Shan"},
+    |{"from_family": true, "name": "Satya", "sex": "F", "parent": "King Shan"},
+    |{"from_family": false, "name": "Ambi", "sex": "F", "partner_name": "Chit"},
+    |{"from_family": false, "name": "Lika", "sex": "F", "partner_name": "Vich"},
+    |{"from_family": false, "name": "Vyan", "sex": "M", "partner_name": "Satya"},
+    |{"from_family": true, "name": "Drita", "sex": "M", "parent": "Chit"},
+    |{"from_family": true, "name": "Vrita", "sex": "M", "parent": "Chit"},
+    |{"from_family": true, "name": "Vila", "sex": "M", "parent": "Vich"},
+    |{"from_family": true, "name": "Chika", "sex": "F", "parent": "Vich"},
+    |{"from_family": true, "name": "Satvy", "sex": "F", "parent": "Satya"},
+    |{"from_family": true, "name": "Savya", "sex": "M", "parent": "Satya"},
+    |{"from_family": true, "name": "Saayan", "sex": "M", "parent": "Satya"},
+    |{"from_family": false, "name": "Jaya", "sex": "F", "partner_name": "Drita"},
+    |{"from_family": false, "name": "Jnki", "sex": "F", "partner_name": "Vila"},
+    |{"from_family": false, "name": "Kpila", "sex": "M", "partner_name": "Chika"},
+    |{"from_family": false, "name": "Asva", "sex": "M", "partner_name": "Satvy"},
+    |{"from_family": false, "name": "Krpi", "sex": "F", "partner_name": "Savya"},
+    |{"from_family": false, "name": "Mina", "sex": "F", "partner_name": "Saayan"},
+    |{"from_family": true, "name": "Jata", "sex": "M", "parent": "Drita"},
+    |{"from_family": true, "name": "Driya", "sex": "F", "parent": "Drita"},
+    |{"from_family": true, "name": "Lavanya", "sex": "F", "parent": "Vila"},
+    |{"from_family": true, "name": "Kriya", "sex": "M", "parent": "Savya"},
+    |{"from_family": true, "name": "Misa", "sex": "M", "parent": "Saayan"},
+    |{"from_family": false, "name": "Mnu", "sex": "M", "partner_name": "Driya"},
+    |{"from_family": false, "name": "Gru", "sex": "M", "partner_name": "Lavanya"}
+    |""".stripMargin
+
+val members = members_list.split("\n")

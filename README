@@ -1,0 +1,7 @@
+Before trying to run the code execute the below step
+
+-> open the terminal
+-> run this command:
+      export FAMILY_HOME=<path to the directory where the code is stored>
+-> check if the above command executed sucessfully using: echo $FAMILY_HOME
+-> run the program
